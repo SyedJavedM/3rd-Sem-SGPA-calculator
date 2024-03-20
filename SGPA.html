@@ -1,0 +1,61 @@
+<html><head>
+    <title>SGPA Calculator For C-Cycle </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1><b><i>SGPA Calculator</i></b> </h1>
+    <table>
+        <tbody><tr>
+            <th><h2>SUBJECT</h2></th>
+            <th><h2>MARKS</h2></th>
+        </tr>
+        <tr>
+            <td>MATHEMATICS III </td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>DD & CO</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>OPERATING SYSTEMS</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>DATA STRUCTURES LAB</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>DATA STRUCTURES AND ALGORITHM</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>OOPs WITH JAVA</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>SCR</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+        <tr>
+            <td>DATA ANALYTICS WITH EXCEL</td>
+            <td><input type="number" min="0" max="100"></td>
+        </tr>
+    </tbody></table>
+    <div class="total-marks" id="sgpaDisplay"></div>
+    <div class="buttons">
+        <button onclick="calculateSGPA()">Calculate SGPA</button>
+        <button class="reset" onclick="resetMarks()">Reset</button>
+    </div>
+  
+  
+    <footer>
+        © Syed Javed M                
+    </footer>
+  
+    <script src="main.js"></script>
+    
+  
+  
+  
+  </body></html>
